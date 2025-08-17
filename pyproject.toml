@@ -38,9 +38,9 @@ requires-python = ">=3.9"
 dynamic = ["description"]
 
 [project.urls]
-Source = "https://github.com/haydenkuk/gsheeter"
-Issues = "https://github.com/haydenkuk/gsheeter/issues"
-Documentation = "https://github.com/haydenkuk/gsheeter/blob/main/README.md"
+Source = "https://github.com/haydenkuk/fred"
+Issues = "https://github.com/haydenkuk/fred/issues"
+Documentation = "https://github.com/haydenkuk/fred/blob/main/README.md"
 
 [project.license]
 file = "LICENSE.txt"
