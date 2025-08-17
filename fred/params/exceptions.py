@@ -26,10 +26,8 @@ class InvalidApikeyFormat(Exception):
 
   def __init__(
     self,
-    api_key: str,
   ) -> None:
     message = f'''
-    "{api_key}" has an invalid apikey form
     api_key consists of 32 alpha-numeric characters
     Please visit https://fred.stlouisfed.org/docs/api/api_key.html for more info
     '''

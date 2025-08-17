@@ -85,10 +85,10 @@ class Apikey(FredParameter):
       types=(str,))
 
     if not api_key.isalnum():
-      raise InvalidApikeyFormat(api_key)
+      raise InvalidApikeyFormat()
     
     if len(api_key) != 32:
-      raise InvalidApikeyFormat(api_key)
+      raise InvalidApikeyFormat()
 
 
 class FileType(FredParameter):

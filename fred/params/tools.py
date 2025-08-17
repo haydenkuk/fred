@@ -11,13 +11,15 @@ from .vars import (
   DATE_FORMAT,
   DATE_REGEX,
 )
+from . import vars
 
 
 def set_apikey(val: str):
-  from . import vars
-
   vars.APIKEY = val
 
+
+def show_apikey():
+  print(vars.APIKEY)
 
 def typecheck(
   parameter: Any,

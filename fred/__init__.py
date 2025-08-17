@@ -1,5 +1,6 @@
 from .params import (
   set_apikey,
+  show_apikey,
 )
 from .base import Fred
 from .endpoints import (
@@ -40,6 +41,7 @@ from .test import test_all
 
 __all__ = [
   'set_apikey',
+  'show_apikey',
   'Fred',
   'get_category',
   'get_category_children',
@@ -73,4 +75,5 @@ __all__ = [
   'get_related_tags',
   'get_tags_series',
   'test_all',
+  'APIKEY'
 ]

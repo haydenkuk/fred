@@ -9,7 +9,10 @@ from ..params.params import (
   Apikey,
   FileType,
 )
-from ..params.exceptions import MissingApikey
+from ..params.exceptions import (
+  InvalidApikeyFormat,
+  MissingApikey,
+)
 from typing import (
   Dict, Any
 )
@@ -33,6 +36,9 @@ class Fred:
     
     if not vars.APIKEY:
       raise MissingApikey()
+
+    if len(str(vars.APIKEY)) != 32:
+      raise InvalidApikeyFormat()
 
     url = '/'.join([vars.BASEURL, endpoint])
     params['api_key'] = str(vars.APIKEY)
