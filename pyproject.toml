@@ -3,7 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "fred"
+name = "freder"
 version = "0.0.1"
 authors = [{ name = "Yunjong Guk", email = "haydenkuk@gmail.com" }]
 maintainers = [{ name = "Yunjong Guk", email = "haydenkuk@gmail.com" }]
@@ -20,18 +20,18 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Python Modules",
 ]
 dependencies = [
-  "certifi>=2025.8.3"
-  "charset-normalizer>=3.4.3"
-  "dotenv>=0.9.9"
-  "idna>=3.10"
-  "numpy>=2.3.2"
-  "pandas>=2.3.1"
-  "python-dateutil>=2.9.0.post0"
-  "python-dotenv>=1.1.1"
-  "pytz>=2025.2"
-  "requests>=2.32.4"
-  "six>=1.17.0"
-  "tzdata>=2025.2"
+  "certifi>=2025.8.3",
+  "charset-normalizer>=3.4.3",
+  "dotenv>=0.9.9",
+  "idna>=3.10",
+  "numpy>=2.3.2",
+  "pandas>=2.3.1",
+  "python-dateutil>=2.9.0.post0",
+  "python-dotenv>=1.1.1",
+  "pytz>=2025.2",
+  "requests>=2.32.4",
+  "six>=1.17.0",
+  "tzdata>=2025.2",
   "urllib3>=2.5.0"
 ]
 requires-python = ">=3.9"

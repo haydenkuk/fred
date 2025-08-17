@@ -23,7 +23,25 @@ Requires Python 3.9+
 
 2. Usage
 
-1) Authentication: using dotenv
+1-1) Authentication: using dotenv
  - Created a file named ".env"
  - Add "FRED_APIKEY='YOURAPIKEY'" in the file
- - 
+1-2) Authentication: using "set_apikey"
+```python
+import freder
+
+freder.set_apikey('yourapikey')
+```
+
+2) apicalls
+```python
+import freder
+
+result = freder.get_category(0)
+print(result)
+```
+All API endpoints are included in this package,
+Please refer to https://fred.stlouisfed.org/docs/api/fred/
+For more API endpoints
+
+Also, Please pay attention to docstrings of each fred functions in this package. I included fred's explanation of each input variable to facilitate the process.

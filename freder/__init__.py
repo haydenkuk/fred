@@ -1,3 +1,9 @@
+"""FRED API Python package"""
+
+__version__ = '0.0.0'
+__author__ = 'Yunjong Guk'
+
+
 from .params import (
   set_apikey,
   show_apikey,
@@ -75,5 +81,4 @@ __all__ = [
   'get_related_tags',
   'get_tags_series',
   'test_all',
-  'APIKEY'
 ]
